@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.sendf("I Will Be doing aticle one soon")
+  res.send("I Will Be doing aticle one soon")
 });
 
 app.get('/', function (req, res) {
