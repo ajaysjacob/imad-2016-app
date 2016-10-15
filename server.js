@@ -9,7 +9,9 @@ var content={
     title: 'Article One',
     heading:'Article One',
     date:'Sep 15 2016',
-    content:''
+    content:`<p>Content of Article One.Content of Article One.Content of Article One.Content of Article One.</p>
+             <p>Content of Article One.Content of Article One.Content of Article One.Content of Article One.</p>
+        <p>Content of Article One.Content of Article One.Content of Article One.Content of Article One.</p> `
 };
 
 app.get('/', function (req, res) {
